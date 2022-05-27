@@ -1,0 +1,180 @@
+
+ body { 
+ 	background-attachment:fixed;
+	background-image:url('Messi.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+	
+}
+
+#topHeader {
+  font-family:"Poppins", sans-serif;;
+  font-size:45px;
+  font-style:bold;
+  text-align:center;
+  color:#FFFFFF; 
+  text-shadow: 3px 3px #2E4057;
+  margin-top:0%;
+}
+  
+.student1,.student2,.student3,.student4 {
+  border-radius: 25px;
+  display: block;
+  width: 250px;
+  height: 250px;
+  padding-left:25px;
+  padding-bottom:50px;
+  opacity:0.9;  
+}
+
+.overlay1,.overlay3{
+  border-radius: 35px;
+  position: absolute;
+  top:85%;
+  background-color: #2E4057;
+  overflow: hidden;
+  width:260px;
+  height:0;
+  transition: .5s ease;
+}
+.overlay2,.overlay4{
+	
+	border-radius: 35px;
+	position: absolute;
+	top:125%;
+	background-color: #2E4057;
+	overflow: hidden;
+	width:260px;
+	height:0;
+	transition: .5s ease;
+}
+
+
+.student1Container:hover .overlay1,.student2Container:hover .overlay2,.student3Container:hover .overlay3,.student4Container:hover .overlay4 {
+  height:25%;
+}
+
+.details1,.details2,.details3,.details4 {
+  position: relative;
+  overflow: hidden;
+  color:#FFFFFF;
+  font-size:23px;
+  font-family:"Arial";
+  text-align:left;
+  line-height:1.5; 
+  padding-left:15px;
+  padding-top:10px;
+  padding-bottom:10px;
+ 
+}
+
+.student1Container {
+  position: static;
+  margin-top:1.5px;
+  margin-bottom:100px;
+  margin-left: 5%;
+  margin-top:2%;
+}
+
+.student2Container {
+  position: static;
+  margin-left: 28%;
+  margin-top:-10%;
+  
+ 
+}
+
+.student3Container {
+	position: static;
+	margin-top:-39%;
+	margin-left:51%;
+ }
+
+.student4Container {
+	position: static;
+	margin-top:-2%;
+	margin-left: 74%;
+
+}
+
+#toTop{
+	position:relative;
+	background-color: #2E4057;
+	color: #FFFFFF;
+	padding: 5px 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius:25px;
+	width:150px;
+	margin-left:42%;
+	margin-top:-100px;
+	margin-bottom:40px;
+}
+.studentDetails{
+	width:100%;
+	height:100%;
+	display:inline-block;
+	margin-bottom:400px;
+}
+* {
+			font-family: "Poppins", sans-serif;
+		}
+		
+		.logo_top {
+			width: 263px;
+			height: 30px;
+			float: right;
+			position: relative;
+			top: 11px;
+			right: 15px;
+		}
+		
+		.navbar {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			text-align: right;
+		}
+		
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #00214e;
+			color: white;
+		}
+
+		.active {
+			background-color: #be0000;
+		}	padding: 20px 20%;
+		
+		.footer {
+			background-color: #be0000;
+			color: white;
+			height: 20%;
+			text-align: center;
+			clear: both;
+			padding: 2%;
+		}
+
+		#facebook, #twitter, #instagram, #github {
+			color: #00214e;
+			text-decoration: none;
+			margin: 10px 40px;
+		}
+
+		#facebook:hover, #twitter:hover, #instagram:hover, #github:hover {
+			color: white;
+		}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="Resources/wekanda_warriors.png">
+<title>
+Presentation Page | Wekanda Warriors
+</title>
+<link rel="stylesheet" href="Resources/style.css">
+<style>
+body{
+background-color: #be0000;
+}
+
+#cont{
+width:60%;
+padding:10px;
+background-color:#00214e;
+color:white;
+margin:auto;
+margin-top:15px;
+margin-bottom:0;
+text-align:center;
+}
+
+#welc{
+font-family:papyrus;
+font-size:80px;
+}
+
+.redFn{
+color:#be0000;
+}
+
+#im{
+width:627px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#membTtl{
+font-size:1.8em;
+}
+
+#members{
+font-size:1.5em;
+text-align:center;
+}
+
+#rdrct{
+width:234px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:10px;
+color:#be0000;
+background-color:white;
+}
+
+.lnk{
+color:white;
+text-decoration:none;
+}
+
+#pgdev{
+float:right;
+}
+
+</style>
+</head>
+<body>	
+
+<div id="cont">
+	
+	<!-- Display Welcome -->
+	<div id="welc">
+		<span class="redFn">W</span>
+		<span class="whtFn">E</span>
+		<span class="redFn">L</span>
+		<span class="whtFn">C</span>
+		<span class="redFn">O</span>	
+		<span class="whtFn">M</span>
+		<span class="redFn">E</span>
+	</div>
+	
+	<!-- Display Logo -->
+	<div id="im">
+		<img src="Resources/wwlogo.jpg" alt="logo">	
+	</div>
+	<br>
+		
+	<!-- Display Team Members -->	
+	<div id="membTtl">
+		Members:
+	</div>
+	<br>
+	
+	<div id="members">
+		1. Anandaeaswaran Brainthra w1809968<br>
+		2. Yoganathan Karthik Akash w1810019<br>
+		3. Ojitha Gamage w1809989<br>
+		4. Sachithra Malshan w1810004<br>
+
+		<br>
+	</div>
+
+	<!-- Display time remaining. Updated using javascript -->
+	<div id="rdrct">
+		<span> Redirecting in </span><span id="sec">...</span>
+	</div>
+	
+</div>
+	
+<!--footer-->
+<div class="footer">
+	<a id="pgdev" class="lnk" href="Page.html">
+		Get in touch with us
+	</a>
+	<br>
+</div>
+	
+
+<script>
+
+	//auto redict in 4 seconds
+    setTimeout(function() {								
+		window.location="Home.html";
+	}, 4000);
+	
+	//Updating remaining time to be displayed
+	//Color of WELCOME letters are also changed
+	setTimeout(function() {
+		document.getElementById("sec").innerHTML="3..";
+		var rtow=document.getElementsByClassName("redFn");
+		for (var n=0;n<rtow.length;n++){
+			rtow[n].style.color="#fff";
+		}
+		var wtor=document.getElementsByClassName("whtFn");
+		for (var n=0;n<wtor.length;n++){
+			wtor[n].style.color="#be0000";
+		}
+	}, 1000);
+	
+	setTimeout(function() {
+		document.getElementById("sec").innerHTML="2..";
+		var rtow=document.getElementsByClassName("redFn");
+		for (var n=0;n<rtow.length;n++){
+			rtow[n].style.color="be0000";
+		}
+		var wtor=document.getElementsByClassName("whtFn");
+		for (var n=0;n<wtor.length;n++){
+			wtor[n].style.color="#fff";
+		}
+    }, 2000);
+	
+	setTimeout(function() {
+		document.getElementById("sec").innerHTML="1..";
+		var rtow=document.getElementsByClassName("redFn");
+		for (var n=0;n<rtow.length;n++){
+			rtow[n].style.color="#fff";
+		}
+		var wtor=document.getElementsByClassName("whtFn");
+		for (var n=0;n<wtor.length;n++){
+			wtor[n].style.color="#be0000";
+		}
+    }, 3000);
+	
+</script>
+</body>
+</html>

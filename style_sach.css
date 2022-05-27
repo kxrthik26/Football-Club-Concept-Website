@@ -1,0 +1,89 @@
+body{
+    background-color: beige;
+	background-image:url("images/about_us.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+    font-family: "Poppins", sans-serif;
+}
+.navbardiv{
+	margin: 0px;
+	background-color: whitesmoke;
+}
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: right;
+	background-color: white;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #00214e;
+  color: white;
+}
+
+.active {
+  	background-color: #be0000;
+}
+.logo_top {
+	width: 263px;
+	height: 30px;
+	float: right;
+	position: relative;
+	top: 11px;
+	right: 15px;
+
+}
+
+h1{
+    text-align: center;
+	color: white;
+	padding-bottom:60px;
+	font-size:60px;
+    padding-top: 30px;
+}
+h2{
+    text-decoration: solid;
+    padding-left: 50px ;
+}
+svg{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	
+}
+text{
+    font-size: 28px;
+    fill: black;
+}
+rect{
+    fill: yellow;
+    stroke: blue;
+    stroke-width: 3;
+
+}
+line {
+    stroke: rgb(255,0,0);
+    stroke-width: 2;
+}
+a{
+    color: white;
+    float: right;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+}

@@ -1,0 +1,1002 @@
+<!doctype html>
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="Resources/wekanda_warriors.png">
+<title>
+Buy Products | Official Store of Wekanda Warriors
+</title>
+<link rel="stylesheet" href="Resources/style.css">
+<style>
+body{
+background-color:#00214e;
+color:#00214e;
+}
+
+.tpWh{
+background-color:white;
+}
+
+#conten{
+float:left;
+width:63%;
+padding-left:2%;
+padding-right:1%;
+}
+
+h1{
+color:#be0000;
+background-color:#00214e;
+text-align:center;
+margin-bottom:0;
+font-weight:bold;
+}
+
+.fieldProduct{
+float:left;
+background-color:#be0000;
+margin:0 18px 18px 0;
+padding:0 10px 20px 10px;
+}
+
+.product{
+float:left;
+margin:10px 10px 0 10px;
+width: 234px;
+background-color:white;
+}
+
+.des{
+text-align: center; 
+font-size: 20px;
+font-weight: bold; 
+}
+
+.hd{
+top:-1000px;
+position:fixed;
+}
+
+.spec{
+float:left;
+background-color:#be0000;
+margin:0 0 18px 0;
+padding:0 0 20px 0;
+}
+
+#ordprc{
+font-weight:bold;
+margin:auto;
+margin-bottom:2px;
+text-align:center;
+height:20px;
+width:180px;
+}
+
+.specin{
+padding:5% 0 0 10px;
+float:left;
+margin:10px 10px 0 0;
+width: 234px;
+height:234px;
+background-color:white;
+}
+
+.labelOrder{
+margin-right:3%;
+width: 250px;
+padding:2%;
+background-color: #ccc;
+float: right;
+color: #000;
+}
+
+#prc0{
+position: relative;
+font-weight: bold; 
+}
+
+#ttlPlace{
+width:150px;
+}
+
+#cartDis {
+float: none;
+margin-right: auto;
+margin-left: auto;
+margin-bottom:5px;
+}
+
+legend{
+font-size:1.5em;
+font-weight:bold;
+}
+
+fieldset legend{
+color:white;
+background-color:#be0000;
+}
+
+table,th,td{
+border-collapse:collapse;
+border:1px solid black;
+}
+
+table{
+width:234px;
+text-align:right;
+}
+
+.nmbr{
+width:30px;
+}
+
+.letr{
+text-align:left;
+}
+
+.lnk{
+color:white;
+text-decoration:none;
+}
+
+#vstQz{
+background-color:white;
+color:#be0000;
+border:2px solid #be0000;
+width:200px;
+height:120px;
+text-align:center;
+text-decoration:none;
+float:right;
+margin:5%;
+padding-top:80px;
+font-weight:bold;
+}
+
+#vstQr{
+background-color:#be0000;
+color:white;
+border:2px solid white;
+width:200px;
+height:120px;
+text-align:center;
+text-decoration:none;
+float:right;
+margin:5%;
+margin-top:0;
+padding-top:80px;
+font-weight:bold;
+}
+
+#toTop{
+float:left;
+}
+
+#pgdev{
+float:right;
+}
+
+.ye{
+border:3px solid yellow;
+}
+
+input[type=radio]{
+margin-bottom:20px;
+}
+
+select{
+margin-bottom:20px;
+}
+
+input[type=button]{
+float: right;
+margin:0 10px 0 10px;
+}
+
+input[type=button].lfloat{
+float:left;
+}
+
+span{
+float:left;
+}
+
+hr{
+width:230px;
+}
+
+</style>
+</head>
+
+<body>
+<!--Navigation Bar, Logo-->
+<div class="tpWh">
+	<img class="logo_top" src="Resources/wekanda_warriors_font.png" alt="wekanda_warriors_logo">
+	<ul class="navbar">
+		<li><a href="Home.html">Home</a></li>
+		<li><a class="active" href="#products">Products</a></li>
+		<li><a href="playerprofile.html">Player Profiles</a></li>
+		<li><a href="Quiz.html">Quiz</a></li>
+		<li><a href="SiteMap.html">Sitemap</a></li>
+		<li><a href="memberDetails.html">Editors</a></li>
+		<li><a href="Queries.html">Queries</a></li>
+	</ul>
+</div>
+
+
+<!-- Heading and description-->
+<h1 id="hedin">BUY PRODUCTS</h1>
+
+<!-- Creating form-->
+<form name="orderForm">
+
+<!-- Creating div for product display-->
+<div id="conten">
+
+<!-- Creating div for user to update order specificaions-->
+<div id="spec1" class="spec" >
+
+</div>
+
+<!-- Fieldset to separate and display T-Shirt -->	
+<fieldset class="fieldProduct">
+<legend>T-Shirt</legend>
+		<div id="tsHPdiv" class="product">	
+			<label for="tsHP">
+			<img id="tsHPimg" src="Resources/phs.jpg" alt="T-Shirt(P) [Hom]">
+			<span class="des">
+			Home
+			</span>
+			</label>
+		</div>
+
+		<div id="tsAPdiv" class="product">
+			<label for="tsAP">
+			<img id="tsAPimg" src="Resources/pas.jpg" alt="T-Shirt(P) [Awy]">
+			<span class="des">
+			Away
+			</span>
+			</label>
+		</div>
+
+		<div id="tsLPdiv" class="product">
+			<label for="tsLP">
+			<img id ="tsLPimg" src="Resources/pls.jpg" alt="T-Shirt(P) [Alt]">
+			<span class="des">
+			Alternate
+			</span>
+			</label>
+		</div>
+
+	
+	<input type="radio" name="products" class="hd" value="T-Shirt(P) [Hom]" id="tsHP">
+	<input type="radio" name="products" class="hd" value="T-Shirt(P) [Awy]" id="tsAP">
+	<input type="radio" name="products" class="hd" value="T-Shirt(P) [Alt]" id="tsLP">
+</fieldset>
+
+<!-- Fieldset to separate and display T-Shirt[GK] -->	
+<fieldset class="fieldProduct">
+<legend>T-Shirt [GK]</legend>
+		<div id="tsHGdiv" class="product">
+			<label for="tsHG">
+			<img id="tsHGimg" src="Resources/ghl.jpg" alt="T-Shirt(GK) [Hom]">
+			<span class="des">
+			Home
+			</span>
+			</label>
+		</div>
+	
+		<div id="tsAGdiv" class="product">
+			<label for="tsAG">
+			<img id="tsAGimg" src="Resources/gat.jpg" alt="T-Shirt(GK) [Awy]">
+			<span class="des">
+			Away
+			</span>
+			</label>
+		</div>
+		
+		<div id="tsLGdiv" class="product">
+			<label for="tsLG">
+			<img id ="tsLGimg" src="Resources/gll.jpg" alt="T-Shirt(GK) [Alt]">
+			<span class="des">
+			Alternate
+			</span>
+			</label>
+		</div>
+	
+	<input type="radio" name="products" class="hd" value="T-Shirt(GK) [Hom]" id="tsHG">
+	<input type="radio" name="products" class="hd" value="T-Shirt(GK) [Awy]" id="tsAG">
+	<input type="radio" name="products" class="hd" value="T-Shirt(GK) [Alt]" id="tsLG">
+</fieldset>
+
+<!-- Creating div for user to update order specificaions-->
+<div id="spec2" class="spec" >
+
+</div>
+
+<!-- Fieldset to separate and display Shorts -->	
+<fieldset class="fieldProduct">
+<legend>Shorts</legend>
+		<div id="shHPdiv" class="product">	
+			<label for="shHP">
+			<img id="shHPimg" src="Resources/ph.jpg" alt="Shorts(P) [Hom]">
+			<span class="des">
+			Home
+			</span>
+			</label>
+		</div>
+
+		<div id="shAPdiv" class="product">
+			<label for="shAP">
+			<img id="shAPimg" src="Resources/pa.jpg" alt="Shorts(P) [Awy]">
+			<span class="des">
+			Away
+			</span>
+			</label>
+		</div>
+		
+		<div id="shLPdiv" class="product">
+			<label for="shLP">
+			<img id ="shLPimg" src="Resources/pl.jpg" alt="Shorts(P) [Alt]">
+			<span class="des">
+			Alternate
+			</span>
+			</label>
+		</div>
+	
+	<input type="radio" name="products" class="hd" value="Shorts(P) [Hom]" id="shHP">
+	<input type="radio" name="products" class="hd" value="Shorts(P) [Awy]" id="shAP">
+	<input type="radio" name="products" class="hd" value="Shorts(P) [Alt]" id="shLP">
+</fieldset>
+
+<!-- Fieldset to separate and display Shorts[GK] -->	
+<fieldset class="fieldProduct">
+<legend>Shorts [GK]</legend>
+	
+		<div id="shHGdiv" class="product">	
+			<label for="shHG">
+			<img id="shHGimg" src="Resources/gh.jpg" alt="Shorts(GK) [Hom]">
+			<span class="des">
+			Home
+			</span>
+			</label>
+		</div>
+
+		<div id="shAGdiv" class="product">
+			<label for="shAG">
+			<img id="shAGimg" src="Resources/ga.jpg" alt="Shorts(GK) [Awy]">
+			<span class="des">
+			Away
+			</span>
+			</label>
+		</div>
+		
+		<div id="shLGdiv" class="product">
+			<label for="shLG">
+			<img id ="shLGimg" src="Resources/gl.jpg" alt="Shorts(GK) [Alt]">
+			<span class="des">
+			Alternate
+			</span>
+			</label>
+		</div>
+	
+	<input type="radio" name="products" class="hd" value="Shorts(GK)[Hom]" id="shHG">
+	<input type="radio" name="products" class="hd" value="Shorts(GK)[Awy]" id="shAG">
+	<input type="radio" name="products" class="hd" value="Shorts(GK)[Alt]" id="shLG">
+</fieldset>
+
+<!-- Creating div for user to update order specificaions-->
+<div id="spec3" class="spec" >
+
+</div>
+
+<!-- Fieldset to separate and display Flags -->	
+<fieldset class="fieldProduct">
+<legend>Flag</legend>
+		<div id="fl1div" class="product">	
+			<label for="fl1">
+			<img id="fl1img" src="Resources/fllogo.jpg" alt="Flag [Logo]">
+			<span class="des">
+			Flag [Logo]
+			</span>
+			</label>
+		</div>
+		
+		<div id="fl2div" class="product">
+			<label for="fl2">
+			<img id="fl2img" src="Resources/flnam.jpg" alt="Flag [Name]">
+			<span class="des">
+			Flag [Name]
+			</span>
+			</label>
+		</div>
+	
+	<input type="radio" name="products" class="hd" value="Flag [Logo]" id="fl1">
+	<input type="radio" name="products" class="hd" value="Flag [Name]" id="fl2">
+</fieldset>
+
+<!-- Fieldset to separate and display Football -->	
+<fieldset class="fieldProduct">
+<legend>Football</legend>
+		<div id="baldiv" class="product">
+			<label for="bal">
+			<img id="balimg" src="Resources/fball.jpg" alt="Football">
+			<span class="des">
+			Football
+			</span>
+			</label>
+		</div>
+	<input type="radio" name="products" class="hd" value="Football" id="bal">
+</fieldset>
+
+</div>
+
+<!-- div to get customer info. and display cart and later order information-->
+<div id="ord" class="labelOrder">
+	<label for="fname">First Name</label>
+		<input id="fname" type="text"><br><br>
+	<label for="lname">Last Name</label>
+		<input id="lname" type="text"><br><br>
+	<label for="mial">Mail<br></label>
+		<input id="mial" type="text"><br><br>
+	<div id="cartTil">Cart</div>
+	<div id="ttl"></div>
+	<div class="product" id="cartDis">Empty</div>
+	<div id="btns"></div>
+</div>
+
+<!--Quiz Display-->
+<a href="Quiz.html">
+<div id="vstQz">
+	Click Here to Test<br>
+	Your Knowledge on <br>
+	Wekanda Warriors
+</div>
+</a>
+
+<!--Queries Display-->
+<a href="Queries.html">
+<div id="vstQr">
+	Click Here to <br>
+	Post Your <br>
+	Queries
+</div>
+</a>
+
+<!--footer-->
+<div class="footer">
+	<a id="toTop" class="lnk" href="#hedin">
+		/\ Back To Top
+	</a>
+	<a id="pgdev" class="lnk" href="Page.html">
+		Get in touch with us			
+	</a>
+	<br>
+</div>
+	
+</form>
+
+<script>
+//assigning variables
+var str="";
+var total=0;
+var num1=0;
+var price=0;
+var prcOrd=0;
+var typ="";
+
+//creating lists to hold order data
+var lisi= [];
+var lisn= [];
+var lisp= [];
+
+//lists with data types to use in validation of name and mail
+var alpLC=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];   
+var alpUC=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];   
+var dgdts=["0","1","2","3","4","5","6","7","8","9"];
+var chars=["!","#","$","%","&","'","*","+","-","/","=","?","^","_","`","{","|","}","~",".","@"];
+
+//adding event listeners to elements in document
+document.getElementById("tsHP").addEventListener("click",function(){show('tsHPdiv','spec1');});
+document.getElementById("tsAP").addEventListener("click",function(){show('tsAPdiv','spec1');});
+document.getElementById("tsLP").addEventListener("click",function(){show('tsLPdiv','spec1');});
+
+document.getElementById("tsHG").addEventListener("click",function(){show('tsHGdiv','spec1');});
+document.getElementById("tsAG").addEventListener("click",function(){show('tsAGdiv','spec1');});
+document.getElementById("tsLG").addEventListener("click",function(){show('tsLGdiv','spec1');});
+
+document.getElementById("shHP").addEventListener("click",function(){show('shHPdiv','spec2');});
+document.getElementById("shAP").addEventListener("click",function(){show('shAPdiv','spec2');});
+document.getElementById("shLP").addEventListener("click",function(){show('shLPdiv','spec2');});
+
+document.getElementById("shHG").addEventListener("click",function(){show('shHGdiv','spec2');});
+document.getElementById("shAG").addEventListener("click",function(){show('shAGdiv','spec2');});
+document.getElementById("shLG").addEventListener("click",function(){show('shLGdiv','spec2');});	
+
+document.getElementById("fl1").addEventListener("click",function(){show('fl1div','spec3');});
+document.getElementById("fl2").addEventListener("click",function(){show('fl2div','spec3');});
+
+document.getElementById("bal").addEventListener("click",function(){show('baldiv','spec3');});
+
+//Change colors 
+function colorc1(){
+	setTimeout(function() {
+		document.getElementById("vstQz").style.color="white";
+		document.getElementById("vstQz").style.backgroundColor="#be0000";
+		document.getElementById("vstQz").style.border="2px solid white";
+		
+		document.getElementById("vstQr").style.color="#be0000";
+		document.getElementById("vstQr").style.backgroundColor="white";
+		document.getElementById("vstQr").style.border="2px solid #be0000";
+		
+		colorc2();
+    }, 2000);
+}
+
+//Change colors 
+function colorc2(){
+	setTimeout(function() {
+		document.getElementById("vstQr").style.color="white";
+		document.getElementById("vstQr").style.backgroundColor="#be0000";
+		document.getElementById("vstQr").style.border="2px solid white";
+		
+		document.getElementById("vstQz").style.color="#be0000";
+		document.getElementById("vstQz").style.backgroundColor="white";
+		document.getElementById("vstQz").style.border="2px solid #be0000";
+		
+		colorc1();
+    }, 2000);
+}
+
+//call function to start change color
+colorc1();
+
+//reset variables
+function setShow(){
+num1=0;
+price=0;
+prcOrd=0;
+}
+
+function getSelectedValue(selectList){
+	return selectList[ selectList.selectedIndex ].value;
+}
+
+function getRadioValue( radioArray ) {
+	var i;
+	for ( i = 0; i < radioArray.length; i++ ) {
+		if ( radioArray[ i ].checked ) { 
+			return radioArray[ i ].value;
+		}
+	}
+	return "";
+}
+
+//clear borders around product and clear specificaions
+function clearb(){
+	var lisPr=document.getElementsByClassName("product");
+	for (var n=0;n<lisPr.length;n++){
+		lisPr[n].classList.remove("ye");
+	}
+	var lisSp=document.getElementsByClassName("spec");
+	for (var n=0;n<lisSp.length;n++){
+		lisSp[n].innerHTML="";
+	}
+}
+
+//display selected product in specific div for user to update specificaions
+function show(chosenDiv,cat){
+	clearb();
+	document.getElementById(chosenDiv).classList.add("ye");
+	setShow();
+	typ=cat;
+	var strOrd=""
+	strOrd +=	'<div id ="ord1" >'+
+				'<legend>Your Order</legend>'+
+					'<div id="orderDescription" class="product">'+
+						'<div id="order1"></div>'+
+						'<div id="ordprc" > &pound &lt select size &gt </div>'+
+						'</div>'+
+						'<div class="specin">';
+		
+	if (cat==="spec1"){
+		strOrd += 			'<label>Sleeve:</label><br>'+
+							'<label for="long">long</label>'+
+							'<input type="radio" name="sleeve" id="long" value="long" onclick="checkSlOptions(this.form);" >'+
+							'<label for="short" > short </label>'+
+							'<input type="radio" name="sleeve" id="short" value="short" onclick="checkSlOptions(this.form);" ><br>';
+	}
+	if (cat==="spec1" || cat==="spec2"){
+		strOrd +=	 	    '<label for="sizeOptions">Size: </label>'+
+							'<select name="sizeOptions" id="sizeOptions" onchange="upPrc()">'+
+								'<option value="pleaseSelect">please select</option>'+
+								'<option value="Small">Small</option>'+
+								'<option value="Medium">Medium</option>'+
+								'<option value="Large">Large</option>'+
+							'</select><br>';
+		}
+	strOrd +=				'<span id="qttPlace"><span>Quantity: </span>'+
+								'<input type="button" class="lfloat" value="-" onclick="mnsOne(num1);">'+
+								'<span id="num1">0</span>'+
+								'<input type="button" class="lfloat" value="+" onclick="addOne(num1);">'+
+							'</span><br><br><hr>'+
+							'<div id="ttlPlace">'+
+								'<br><br><span id="prcO">Total &pound 0</span>'+						
+								'<input type="button" value="Place" onclick="addOrder(this.form,num1);">'+
+							'</div>'+
+						'</div>'+
+					'</div>';
+	
+	document.getElementById(cat).innerHTML=strOrd;
+	document.getElementById("num1").innerHTML=num1;
+	
+	if (cat==="spec1"){
+		switch (getRadioValue(document.orderForm.products)){
+		case "T-Shirt(P) [Hom]":
+		case "T-Shirt(P) [Awy]":
+		case "T-Shirt(P) [Alt]": 
+			document.orderForm.sleeve.value="short";
+			break;
+	
+		case "T-Shirt(GK) [Hom]":
+		case "T-Shirt(GK) [Awy]":
+		case "T-Shirt(GK) [Alt]": 
+			document.orderForm.sleeve.value="long";
+			break;
+		}
+	}
+
+	upPrc();
+	upPrcOrd();
+
+	document.getElementById("order1").innerHTML= document.getElementById(chosenDiv).innerHTML;
+}
+
+//Update relevant elements and values when radio option long or short selected (Only for T-Shirts)
+function checkSlOptions(formref){
+	if (getRadioValue(formref.sleeve)==="long"){
+		switch (getRadioValue(document.orderForm.products)){
+			case "T-Shirt(P) [Hom]":
+				document.getElementById("tsHPimg").src="Resources/phl.jpg";
+				break;
+			case "T-Shirt(GK) [Hom]":
+				document.getElementById("tsHGimg").src="Resources/ghl.jpg";
+				break;
+			case "T-Shirt(P) [Awy]":
+				document.getElementById("tsAPimg").src="Resources/pal.jpg";
+				break;
+			case "T-Shirt(GK) [Awy]":
+				document.getElementById("tsAGimg").src="Resources/gat.jpg";
+				break;
+			case "T-Shirt(P) [Alt]": 
+				document.getElementById("tsLPimg").src="Resources/pll.jpg";
+				break;
+			case "T-Shirt(GK) [Alt]": 
+				document.getElementById("tsLGimg").src="Resources/gll.jpg";
+				break;
+		}
+	}
+	else{
+		switch(getRadioValue(document.orderForm.products)){
+			case "T-Shirt(P) [Hom]":
+				document.getElementById("tsHPimg").src="Resources/phs.jpg";
+				break;
+			case "T-Shirt(GK) [Hom]":
+				document.getElementById("tsHGimg").src="Resources/ghs.jpg";
+				break;
+			case "T-Shirt(P) [Awy]":
+				document.getElementById("tsAPimg").src="Resources/pas.jpg";
+				break;
+			case "T-Shirt(GK) [Awy]":
+				document.getElementById("tsAGimg").src="Resources/gas.jpg";
+				break;
+			case "T-Shirt(P) [Alt]": 
+				document.getElementById("tsLPimg").src="Resources/pls.jpg";
+				break;
+			case "T-Shirt(GK) [Alt]": 
+				document.getElementById("tsLGimg").src="Resources/gls.jpg";
+				break;
+		}
+	}
+	upPrc();
+}
+
+//Add order to cart and update relevant values
+function addOrder(formref,num){
+	var reftyp=formref.products;
+	var refsl="";
+	var refsz=formref.sizeOptions;
+	
+	while(true){
+		if(typ==="spec1"){
+		refsl=formref.sleeve;
+		}
+		if (typ==="spec1" || typ==="spec2"){
+			if (getSelectedValue(refsz)==="pleaseSelect"){
+				alert("Select Size");
+				break;
+			}
+		}
+		if (num===0){
+			alert("Quantity is zero.\nPlease update Quantity.");
+			break;
+		}	
+
+		var thisOrd="";
+		if (typ==="spec1"){
+			thisOrd=getRadioValue(reftyp)+"<br> Sleeve: "+(getRadioValue(refsl))+"<br> Size:"+(getSelectedValue(refsz));
+		}
+		if (typ==="spec2"){
+			thisOrd=getRadioValue(reftyp)+"<br> Size: "+(getSelectedValue(refsz));
+		}
+		if (typ==="spec3"){
+			thisOrd=getRadioValue(reftyp);
+		}
+
+		if (lisi.includes(thisOrd)){
+			var n=lisi.indexOf(thisOrd);
+			lisn[n]=num+lisn[n];
+			lisp[n]=prcOrd+lisp[n];
+		}
+		else{
+			lisi.push(thisOrd);
+			lisn.push(num);
+			lisp.push(prcOrd);
+			}
+	
+		str+= thisOrd;
+		str+= "<br>Quantity: "+num+"<hr>";
+		
+		total+= prcOrd;
+		
+		document.getElementById("cartTil").innerHTML="Cart: ";
+		document.getElementById("ttl").innerHTML="&pound "+total;
+		document.getElementById("cartDis").innerHTML=str;
+		document.getElementById("btns").innerHTML='<input type="button" value="Place" onclick="placeOrder();"><input type="button" value="Reset" onclick="resetOrder();">'
+		break;
+	}
+}
+
+//Update price accoring to product and updated specifications
+function upPrc(){
+	switch (typ){
+	case "spec1":
+		price=30;
+		if (getRadioValue(document.orderForm.sleeve)==="long"){
+			price+=5
+		}
+		break;
+	case "spec2":
+		price=20;
+		break;
+	case "spec3":	
+		if (getRadioValue(document.orderForm.products)==="Football"){
+			price=10;
+		}
+		else{
+			price=15;
+		}
+		break;
+	}
+	
+	if (typ==="spec1" || typ==='spec2'){
+		switch (getSelectedValue(document.orderForm.sizeOptions)){
+			case "pleaseSelect":
+			price="&lt select size &gt";
+			break;
+			case "Medium":
+			price+=price*2/5;
+			break;
+			case "Large":
+			price+=price*3/5;
+			break;
+		}
+	}
+	
+	document.getElementById("ordprc").innerHTML="&pound "+price;
+	
+	upPrcOrd();
+}
+
+//Add quantity. capped at 10
+function addOne(n){
+	n=n+1;
+	if (n>10){
+		alert("Only upto 10 items \ncan be added at once");
+		n=10;
+	}
+	num1=n;
+	document.getElementById("num1").innerHTML=num1;
+	upPrcOrd();
+}
+
+//Substract quantity. lower limit specified as zero
+function mnsOne(n){
+	if (n!=0){
+		n=n-1;
+	}
+	num1=n;
+	document.getElementById("num1").innerHTML=num1;
+	upPrcOrd();
+}
+
+//Update total price of specific selection
+function upPrcOrd(){
+	if(Number.isInteger(price)){
+		prcOrd=price*num1;}
+	else{
+		prcOrd=0;
+	}
+	
+	document.getElementById("prcO").innerHTML="Total &pound"+prcOrd;
+}
+
+//Validation of First and Last Names
+//A Name with Alphabets and blank spaces will be accepted
+function nameVald(formref){
+var strnm=formref;
+for(var n=0;n<strnm.length;n++){
+	if(!((alpLC).includes(strnm.substring(n,(n+1))))
+	&& !((alpUC).includes(strnm.substring(n,(n+1))))
+	&& !(strnm.substring(n,(n+1))===" ")){
+		return false;
+	}
+}
+return true;
+}
+
+//Validation of mail
+function mialVald(){
+	var strml=document.orderForm.mial.value;
+	var at1=false;
+	at1n=false;
+	var dot1=false;
+	var strcVal=false;
+	//Checking if only valid characters are present 
+	for (var n=0;n<strml.length;n++){
+		if(!((alpUC).includes(strml.substring(n,(n+1))))
+		&& !((alpLC).includes(strml.substring(n,(n+1))))
+		&& !((dgdts).includes(strml.substring(n,(n+1))))
+		&& !((chars).includes(strml.substring(n,(n+1))))){
+			return false;
+		}
+		//ensure . not immediately followed by @
+		if(dot1===true && strml.substring(n,(n+1))==="@"){
+			return false;
+		}
+		//ensure . not immediately followed by .
+		if(dot1===true && strml.substring(n,(n+1))==="."){
+			return false;
+		}
+		else{
+			dot1=false;
+		}
+		if(dot1===false && strml.substring(n,(n+1))==="."){
+			dot1=true;
+		}
+		//ensure no two @ present
+		if(at1===true && strml.substring(n,(n+1))==="@"){
+			return false;
+		}
+		if(at1===true && strml.substring(n,(n+1))!=="@"){
+			at1n=false;
+		}
+		if(at1===false && strml.substring(n,(n+1))==="@"){
+			at1=true;
+			at1n=true;
+		}
+		//ensure @ not immediately followed by .
+		if(at1n===true && strml.substring(n,(n+1))==="."){
+			return false;
+		}
+
+	}
+	//ensure first or last character not symbol or number
+	if (dgdts.includes(strml.substring((strml.length)-1,strml.length))
+	|| chars.includes(strml.substring((strml.length)-1,strml.length))
+	|| dgdts.includes(strml.substring(0,1))
+	|| chars.includes(strml.substring(0,1)))
+	{
+	return false;
+	}
+	//ensure there is @ followed by . later
+	for (var n=0;n<strml.length;n++){
+		if(strml.substring(n,(n+1))==="@"){
+			for (var m=n+1;m<strml.length;m++){
+				if(strml.substring(m,(m+1))==="."){
+				return true;
+				}
+			}
+		}
+	}
+	return false;
+}
+
+//Place order to display order information
+function placeOrder(){
+	var fnameVal=false;
+	var lnameVal=false;
+	var mialVal=false;
+	fnameVal=nameVald(document.orderForm.fname.value);
+	lnameVal=nameVald(document.orderForm.lname.value);
+	mialVal=mialVald();
+	while(true){
+		if(document.orderForm.fname.value===""){
+			alert("Enter First Name");
+			break;
+		}
+		if(document.orderForm.lname.value===""){
+			alert("Enter Last Name");
+			break;		
+		}
+		if(document.orderForm.mial.value===""){
+			alert("Enter Mail");
+			break;
+		}
+		if(fnameVal===false){
+			alert("Enter Valid First Name");
+			break;		
+		}
+		if(lnameVal===false){
+			alert("Enter Valid Last Name");
+			break;		
+		}
+		if(mialVal===false){
+			alert("Enter Valid Mail");
+			break;		
+		}
+
+		var str1='<br>Name: '+document.orderForm.fname.value+' ';
+		str1+=    document.orderForm.lname.value+'<br><br>';
+		str1+=    'Mail: '+document.orderForm.mial.value+'<br>';
+		str1+=    '<br><br>';
+		str1+=    'Order: <br><table>';
+		str1+=    	'<tr class="letr"><th>Product</th><th>Qty.</th><th>Prc.(&pound)</th></tr>';
+
+		for(var n=0;n<lisi.length;n++){
+			str1+=	'<tr><td class="letr">'+lisi[n]+'</td>';
+			str1+=		'<td class="nmbr">'+lisn[n]+'</td>';
+			str1+=		'<td class="nmbr">'+lisp[n]+'</td></tr>';
+		}
+
+		str1+=    	'<tr><th class="letr">Total</th><td></td><th id="cartTtl"></th></tr>';
+		str1+=	  '</table><br> &nbsp';
+		
+		document.getElementById("cartTil").innerHTML="Select any additional products <br>or Proceed.";
+		document.getElementById("cartDis").innerHTML=str1;
+		document.getElementById("cartTtl").innerHTML=total;
+		document.getElementById("ttl").innerHTML="";
+		document.getElementById("btns").innerHTML='<input type="button" value="Proceed" onclick="resetOrderPg();"><input type="button" value="Reset" onclick="resetOrder();">';
+		break;
+	}
+}
+
+//Display message and reset
+function resetOrderPg(){
+		document.getElementById("cartDis").innerHTML="<br>Thank You<br><br>GO WEKANDA GO<br> &nbsp";
+			setTimeout(function() {
+		resetOrder();	 
+	}, 3000);
+}
+
+//Reset values 
+function resetOrder(){
+	clearb();
+	str="";
+	lisi=[];
+	lisn=[];
+	lisp=[];
+	total=0;
+	document.orderForm.fname.value="";
+	document.orderForm.lname.value="";
+	document.orderForm.mial.value="";
+
+	document.getElementById("cartTil").innerHTML="Cart: ";
+	document.getElementById("btns").innerHTML="";
+	document.getElementById("cartDis").innerHTML="Empty";
+	document.getElementById("ttl").innerHTML="";
+}
+
+</script>
+</body>
+</html>

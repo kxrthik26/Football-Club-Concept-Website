@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Player Profile | Official Site of Wekanda Warriors</title>
+		<link rel="stylesheet" href="thumbnail.css">
+		<link rel="icon" href="images/wekanda_warriors.png">
+
+	</head>
+	<body>
+		<!--header-->
+		<div>
+			
+			<ul id="navbar">
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Buy_Products.html">Products</a></li>
+				<li><a class="active" href="#PlayerProfiles">Player Profiles</a></li>
+				<li><a href="Quiz.html">Quiz</a></li>
+				<li><a href="SiteMap.html">Site Map</a></li>
+				<li><a href="memberDetails.html">Editors</a></li>
+				<li><a href="Queries.html">Queries</a></li>
+			</ul>
+		</div>
+
+		<form id="form1">
+			<!--Background colour-->
+			<label for="theam">Page Theam:   </label>
+			<select name="theam" id="theam" onchange="checkBackground(this.form)">
+				<option value="blue" selected>Blue</option>
+				<option value="orange">Orange</option>
+				<option value="yellow">Yellow</option>
+			</select>
+			
+			<!--text color-->
+			<label for="textColor">Text color:</label>
+			<select name="textColor" id = "textColor" onchange="checkOption(this.form)" >
+				<option value="white" selected>White    </option>
+				<option value="blue">Blue     </option>
+				<option value="black">black    </option>
+			</select>
+
+			<img class="logo_top" src="images/wekanda_warriors_font.png" alt="wekanda_warriors_logo">
+		</form>	
+			
+		<h1 id="heading"> Player Profile </h1>
+		
+		<div id="imgBox" >
+			<img id="imgBoxImg" alt="Mouse Over Image" src="images/custom.jpg">
+			<div id="description"></div>
+		
+		</div>
+		
+		<!--image 1 -->
+		<div class="polaroid">
+			<img id="img1" class="thumbnail"   src="images/pep.jpg" alt ="Pep Guardiola">
+			<div class="container">
+				<p class="imgHeading" >Coach</p>
+				
+			</div>
+		</div>
+			
+		<!--imge 2 -->
+		<div class="polaroid">
+			<img id="img2" class="thumbnail" src= "images/massi.jpg" alt="Massimiliano Allegri">
+			<div class="container">
+				<p class="imgHeading" >Asst-Coach</p>
+			</div>
+		</div>
+		
+		<!-- image 3-->
+		<div class="polaroid">
+			<img id="img3"  class="thumbnail" src="images/messi.png" alt="Lional Messi">
+			<div class="container">
+				<p class="imgHeading" >Captain</p>
+			</div>	
+		</div>
+		
+		<!-- image 4-->
+		<div class="polaroid">
+			<img id="img4" class="thumbnail" src="images/ronaldo.jpg" alt="Cristiano Ronaldo">
+			<div class="container">
+				<p class="imgHeading" >Vice-Captain</p>
+			</div>
+		</div>
+		
+		<!-- image 5 -->
+		<div class="polaroid">
+			<img  id="img5" class="thumbnail" src = "images/neimar.jpg" alt ="Neymar Jr" >
+			<div class="container">
+				<p class="imgHeading" >Manager</p>
+			</div>
+		</div>
+
+		<!--Quote-->
+		<div>
+			<p id="pele">“I am constantly being asked about individuals. The only way to win is as a team. Football (soccer) is not about one or two or three star players.”</p>
+			<p id="name">- Pele -</p>
+		</div>
+
+		<!--back to top-->
+		<a href="#navbar"><img id="backtotop" src="images/arrow.jpg" alt="arrow"></a>
+
+		<!--footer-->
+		<div id="footer">
+			<p id="footerContent">Follow us on</p>
+			<div id="links">
+				<a href="#facebook" target="_blank" id="facebook"><img class="linkImg" src="images/facebookbackground.jpg" alt="facebookIcon"></a>
+				<a href="#twitter" target="_blank" id="twitter"><img class="linkImg" src="images/twitterbackground.jpg" alt="twitterIcon"> </a>
+				<a href="#instagram" target="_blank" id="instagram"><img class="linkImg" src="images/instabackground.jpg" alt="instagramIcon"></a>
+				<a href="#github" target="_blank" id="github"><img class="linkImg" src="images/githubbackground.jpg" alt="githubIcon"></a><br>
+				<a id="developer" href="developer.html" target="_blank">Page Developer</a>
+			</div>
+		</div>
+
+	
+		
+
+		<script src="thumbnail.js"></script>	
+	</body>
+	
+</html>

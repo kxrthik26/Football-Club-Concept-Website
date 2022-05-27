@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="wekanda_warriors.png">
+	<title>Quiz | Official Site of Wekanda Warriors</title>
+	
+	<style>
+	
+		* {
+			font-family: "Poppins", sans-serif;
+		}
+		
+		.logo_top {
+			width: 263px;
+			height: 30px;
+			float: right;
+			position: relative;
+			top: 11px;
+			right: 15px;
+		}
+		
+		.navbar {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			text-align: right;
+		}
+		
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover:not(.active) {
+			background-color: #00214e;
+			color: white;
+		}
+
+		.active {
+			background-color: #be0000;
+		}
+		
+		#qz {
+			background-color: #00214e;
+			color: white;
+			padding: 20px 20%;
+		}
+		
+		.footer {
+			background-color: #be0000;
+			color: white;
+			height: 20%;
+			text-align: center;
+			clear: both;
+			padding: 2%;
+		}
+
+		#facebook, #twitter, #instagram, #github {
+			color: #00214e;
+			text-decoration: none;
+			margin: 10px 40px;
+		}
+
+		#facebook:hover, #twitter:hover, #instagram:hover, #github:hover {
+			color: white;
+		}
+		
+		h2 {
+			text-align: center;
+		}
+
+		#comp_button {
+			background-color: #be0000;
+			color: white;
+			border-radius: 6px;
+			font-size: 16px;
+			padding: 10px;
+			width: 10%;
+			border: 2px;
+			margin-top: 30px;
+			cursor: pointer;
+			margin-left: 45%;
+			margin-bottom: 30px;
+		}
+		
+		#mrk {
+			border: 2px;
+			background-color:#00214e;
+			padding: 25px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<!--Navigation Bar, Logo-->
+	<div>
+		<img class="logo_top" src="wekanda_warriors_font.png" alt="wekanda_warriors_logo">
+		<ul class="navbar">
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Buy_Products.html">Products</a></li>
+			<li><a href="playerprofile.html">Player Profiles</a></li>
+			<li><a class="active" href="#Quiz">Quiz</a></li>
+			<li><a href="SiteMap.html">Site Map</a></li>
+			<li><a href="memberDetails.html">Editors</a></li>
+			<li><a href="Queries.html">Queries</a></li>
+		</ul>
+	</div>
+	
+	<!--Form-->
+	<div id="qz"> 
+	<h2>Quiz</h2>
+	<form name="qzform" id="qzform">
+		<p>1.Who is the all time record winner of the award, having won it six times overall ? </p>
+			<input type="radio" name="q1" id="1a1" value=1>a.Lionel Messi.<br>
+			<input type="radio" name="q1" id="1a2" value=2>b.Cristiano Ronaldo.<br>
+			<input type="radio" name="q1" id="1a3" value=3>c.Luka Modrić.<br>
+			<input type="radio" name="q1" id="1a4" value=4>d.Ronaldinho.<br>
+	
+		<p>2.which country has won the most soccer world cups</p>
+			<input type="radio" name="q2" id="2a1" value=1>a.Argentina.<br>
+			<input type="radio" name="q2" id="2a2" value=2>b.Brazil.<br>
+			<input type="radio" name="q2" id="2a3" value=3>c.England.<br>
+			<input type="radio" name="q2" id="2a4" value=4>d.Italy.<br>
+		<p>3.How much Ballon d'Or does Messi have </p>
+			<input type="radio" name="q3" id="3a1" value=1>a.5<br>
+			<input type="radio" name="q3" id="3a2" value=2>b.3<br>
+			<input type="radio" name="q3" id="3a3" value=3>c.6<br>
+			<input type="radio" name="q3" id="3a4" value=4>d.7<br>
+			
+		<p>4.Which country has played in each and every Foot Ball World Cup till date ?</p>
+			<input type="radio" name="q4" id="4a1" value=1>a.Russia.<br>
+			<input type="radio" name="q4" id="4a2" value=2>b.Spain.<br>
+			<input type="radio" name="q4" id="4a3" value=3>c.Italy.<br>
+			<input type="radio" name="q4" id="4a4" value=4>d.Brazil.<br
+			
+		<p>5.Who is the most famous footballer ? </p>
+			<input type="radio" name="q5" id="5a1" value=1>a.Cristiano Ronaldo.<br>
+			<input type="radio" name="q5" id="5a2" value=2>b.Ronaldinho.<br>
+			<input type="radio" name="q5" id="5a3" value=3>c.Sergio Ramos.<br>
+			<input type="radio" name="q5" id="5a4" value=4>d.Lionel Messi.<br>
+			
+			<p>6.How many Premier League Titles that Manchester United has won under Sir Alex Ferguson </p>
+			<input type="radio" name="q6" id="6a1" value=1>a.10<br>
+			<input type="radio" name="q6" id="6a2" value=2>b.13<br>
+			<input type="radio" name="q6" id="6a3" value=3>c.16<br>
+			<input type="radio" name="q6" id="6a4" value=4>d.10<br>
+			
+			<p>7.Which country host the 2022 FIFA ?</p>
+			<input type="radio" name="q7" id="7a1" value=1>a.Italy.<br>
+			<input type="radio" name="q7" id="7a2" value=2>b.England.<br>
+			<input type="radio" name="q7" id="7a3" value=3>c.Qatar.<br>
+			<input type="radio" name="q7" id="7a4" value=4>d.Russia.<br>
+			
+			<p>8.Which team has won most number of champions league Titles ? </p>
+			<input type="radio" name="q8" id="8a1" value=1>a.Barcelona.<br>
+			<input type="radio" name="q8" id="8a2" value=2>b.AC Milan.<br>
+			<input type="radio" name="q8" id="8a3" value=3>c.PSG.<br>
+			<input type="radio" name="q8" id="8a4" value=4>d.Real Madrid.<br>
+			
+			<p>9.The record for most goals saves held by</p>
+			<input type="radio" name="q9" id="9a1" value=1>a.Rogério Ceni.<br>
+			<input type="radio" name="q9" id="9a2" value=2>b.De Gea.<br>
+			<input type="radio" name="q9" id="9a3" value=3>c.Ter Stegen.<br>
+			<input type="radio" name="q9" id="9a4" value=4>d.Jan Oblak<br>
+			
+			<p>10. The Top Centre-Back In The World ? </p>
+			<input type="radio" name="q10" id="10a1" value=1>a.Kalidou Koulibaly (Napoli)<br>
+			<input type="radio" name="q10" id="10a2" value=2>b.Virgil van Dijk (Liverpool)<br>
+			<input type="radio" name="q10" id="10a3" value=3>c.Sergio Ramos (Real Madrid)<br>
+			<input type="radio" name="q10" id="10a4" value=4>d.Gerard Pique (Barcelona)<br>
+			<br>
+			<input type="button" value="complete" id="comp_button" onclick="checkres();">
+			
+	</form>
+	
+	<div id="mrk"></div>
+	</div>
+	
+	<!--Editor's details access link--> 	
+			<div class="footer-row footer-middle">
+				<div class="editor"> Page Editor : Student 03 <a href="Page Editor.html"> Ojitha Gamage</a></div>
+			</div>
+			
+	<!--footer-->
+	<div class="footer">
+		<br>
+		<div style="font-size: 22px"><b>Get in touch with us,</b></div>
+		<br>
+		<div class="sns_links">
+			<a href="https://www.facebook.com/login" target="_blank" id="facebook">Facebook</a>
+			<a href="https://twitter.com/login" target="_blank" id="twitter">Twitter</a>
+			<a href="https://www.instagram.com/accounts/login" target="_blank" id="instagram">Instagram</a>
+			<a href="https://github.com/login" target="_blank" id="github">Github</a>
+		</div>
+	</div>
+<script>
+
+function getRadioValue( radioArray ) {
+	var i;
+	for ( i = 0; i < radioArray.length; i++ ) {
+		if ( radioArray[ i ].checked ) { 
+			return radioArray[ i ].value;
+		}
+	}
+	return "";
+}
+
+var mark=0;
+var as=[1,2,3,4,1,2,3,4,1,2];
+var qs=[document.qzform.q1,document.qzform.q2,document.qzform.q3,document.qzform.q4,document.qzform.q5,document.qzform.q6,document.qzform.q7,document.qzform.q8,document.qzform.q9,document.qzform.q10];
+var cr=[];
+
+var myVar;
+
+function myFunction(){
+myVar=setTimeout(function (){
+getres();
+},60000);
+}
+
+myFunction();
+
+function getres(){
+for (var n=0;n<qs.length;n++){
+if (getRadioValue(qs[n])==as[n]){
+mark+=2;
+cr[n]="correct";
+}
+else{
+mark-=1;
+cr[n]="incorrect";
+}
+}
+var typstr="Mark = " + mark+"<br><br>";
+for (var i=0;i<cr.length;i++){
+typstr+= (i+1)+" "+cr[i]+"<br>";
+}
+document.getElementById("mrk").innerHTML=typstr;
+if (mark>14){
+document.getElementById("qz").style.backgroundColor="green";
+}
+else{
+if (mark>4){
+document.getElementById("qz").style.backgroundColor="orange";
+}
+else{
+document.getElementById("qz").style.backgroundColor="red";
+}
+}
+}
+
+function checkres(){
+clearTimeout(myVar);
+getres();
+}
+</script>	
+</body>
+</html>
